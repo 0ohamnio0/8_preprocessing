@@ -3,10 +3,10 @@ import io
 from rembg import remove
 
 # 입력 이미지가 있는 디렉토리 경로
-input_image_dir = r'D:\8\8_hei\gicho_danche_again\crop'
+input_image_dir = r'your_directory'
 
 # 출력 이미지를 저장할 디렉토리 경로
-output_image_dir = r'D:\8\8_hei\gicho_danche_again\crop\remove'
+output_image_dir = r'your_directory'
 
 # 출력 디렉토리 생성
 os.makedirs(output_image_dir, exist_ok=True)
