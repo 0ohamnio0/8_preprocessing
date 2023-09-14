@@ -2,7 +2,7 @@
 preprocessing code for k_politician dataset
 
 
-#process
+# process
 
 1. run.py is for downloading PDF file from clawled adress
 
