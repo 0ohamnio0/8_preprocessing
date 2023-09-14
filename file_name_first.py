@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 엑셀 파일 경로 설정 (한글 경로 포함)
-excel_file_path = r"D:\8\기초단체장재보궐선거.xlsx"
+excel_file_path = r"your_directory/excel_file.xlsx"
 
 # 엑셀 파일 읽어오기
 df = pd.read_excel(excel_file_path)
