@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 # 이미지 파일이 있는 디렉토리 경로 설정
-image_dir = Path(r"D:\8\8_hei\gicho_danche_again")
+image_dir = Path(r"your_directory")
 
 # Dlib의 얼굴 검출기 초기화
 detector = dlib.get_frontal_face_detector()
@@ -43,7 +43,7 @@ for image_file in image_files:
         face_image = image[y:y+h, x:x+w]
 
         # 얼굴을 잘라낸 이미지를 저장
-        output_dir = Path(r"D:\8\8_hei\gicho_danche_again\crop")
+        output_dir = Path(r"your_directory")
         output_dir.mkdir(parents=True, exist_ok=True)
         new_file_name = f"{image_file.stem}_face{index}.jpg"
         output_file_path = output_dir / new_file_name
