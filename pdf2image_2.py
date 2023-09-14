@@ -5,10 +5,10 @@ import os
 poppler_path = r'C:\poppler-23.08.0\Library\bin'  # 여기에 실제 Poppler 설치 경로를 지정합니다.
 
 # PDF 파일이 있는 디렉토리 경로
-pdf_dir = 'C:\8회\기초의원재보궐선거_공보'
+pdf_dir = 'your_directory'
 
 # JPG 이미지를 저장할 디렉토리 경로
-jpg_dir = 'C:\8회\기초의원재보궐선거_공보_JPG'
+jpg_dir = 'your_directory'
 
 # Poppler의 경로를 환경 변수에 설정
 os.environ["PATH"] += os.pathsep + poppler_path
