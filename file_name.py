@@ -2,13 +2,13 @@ import pandas as pd
 import os
 
 # 엑셀 파일 경로 설정 (한글 경로 포함)
-excel_file_path = r"D:\8\기초단체장재보궐선거.xlsx"
+excel_file_path = r"your_directory/excel_file.xlsx"
 
 # 엑셀 파일에서 파일명과 새 파일명을 읽어오기
 df = pd.read_excel(excel_file_path)
 
 # 이미지 파일이 있는 디렉토리 경로 설정
-image_dir = r"D:\8\8_hei\gicho_danche_again\crop\remove"
+image_dir = r"your_directory"
 
 # 파일명을 엑셀 레이블 순서대로 변경
 for index, row in df.iterrows():
