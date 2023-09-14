@@ -3,8 +3,8 @@ from pdf2image.exceptions import PDFInfoNotInstalledError
 import os
 
 # PDF 파일이 있는 폴더 경로 설정
-pdf_folder = "C:\8회\기초의원재보궐선거_벽보"  # PDF 파일들이 있는 폴더 경로
-output_folder = "C:\8회\기초의원재보궐선거_벽보_JPG"  # 이미지를 저장할 폴더 이름
+pdf_folder = "your_directory"  # PDF 파일들이 있는 폴더 경로
+output_folder = "your_directory"  # 이미지를 저장할 폴더 이름
 
 # PDF 폴더 내의 모든 PDF 파일 가져오기
 pdf_files = [os.path.join(pdf_folder, file) for file in os.listdir(pdf_folder) if file.endswith(".pdf")]
